@@ -1,0 +1,232 @@
+{
+	"checks": [
+		{
+			"check": "骑椅连锁开路实际输入通关",
+			"detail": {
+				"accidents": {
+					"mon_box": {
+						"cost": 30,
+						"kind": "box"
+					},
+					"mon_cooler": {
+						"cost": 800,
+						"kind": "cooler"
+					},
+					"mon_files": {
+						"cost": 30,
+						"kind": "files"
+					}
+				},
+				"coupons": 1,
+				"damage": 860,
+				"position": [
+					3427.61962890625,
+					599.925170898438
+				],
+				"route": "骑椅连锁开路",
+				"seconds": 15.9666666666667,
+				"state": "success",
+				"strategies": {
+					"chain": true,
+					"noise_lure": true,
+					"powder_escape": true
+				},
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "连锁路线由滚桶撞散文件",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "骑椅连锁开路组合奖章存档",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "整局连锁路线产生连续评分",
+			"detail": {
+				"combo": 7,
+				"score": 3835,
+				"types": {
+					"accident": true,
+					"chain": true,
+					"gate_dash": true,
+					"hr_escape": true,
+					"landing_dash": true,
+					"near_miss": true,
+					"noise_lure": true,
+					"powder_escape": true,
+					"running_jump": true,
+					"upper_route": true,
+					"vault": true,
+					"water_surf": true
+				}
+			},
+			"passed": true
+		},
+		{
+			"check": "名场面截取来自实际游玩",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "高速翻越落地冲刺连锁路线实际输入通关",
+			"detail": {
+				"accidents": {
+					"mon_box": {
+						"cost": 30,
+						"kind": "box"
+					},
+					"mon_cooler": {
+						"cost": 800,
+						"kind": "cooler"
+					},
+					"mon_files": {
+						"cost": 30,
+						"kind": "files"
+					}
+				},
+				"coupons": 0,
+				"damage": 860,
+				"position": [
+					3427.61962890625,
+					599.925170898438
+				],
+				"route": "高速翻越落地冲刺连锁路线",
+				"seconds": 17.25,
+				"state": "success",
+				"strategies": {
+					"chain": true,
+					"noise_lure": true,
+					"powder_escape": true
+				},
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "连锁路线由滚桶撞散文件",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "高速翻越落地冲刺连锁路线组合奖章存档",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "实际整局操作可以达到 S 级",
+			"detail": {
+				"combo": 7,
+				"position": "(3427.62, 599.9252)",
+				"score": 4475,
+				"types": {
+					"accident": true,
+					"chain": true,
+					"gate_dash": true,
+					"hr_escape": true,
+					"landing_dash": true,
+					"near_miss": true,
+					"noise_lure": true,
+					"powder_escape": true,
+					"running_jump": true,
+					"upper_route": true,
+					"vault": true,
+					"water_surf": true
+				}
+			},
+			"passed": true
+		}
+	],
+	"method": "整局保留人事和碰撞，定点检查用于隔离运动与评分边界。",
+	"motion": [
+		{
+			"kind": "running_jump",
+			"position": "(2139.09, 599.9252)",
+			"speed": 336.666625976563
+		},
+		{
+			"kind": "vault",
+			"position": "(532.0721, 499.9252)",
+			"speed": 514.25
+		},
+		{
+			"kind": "landing_dash",
+			"position": "(532.0721, 499.9252)",
+			"speed": 550.0
+		},
+		{
+			"kind": "running_jump",
+			"position": "(2140.16, 599.9252)",
+			"speed": 339.583282470703
+		}
+	],
+	"passed": true,
+	"routes": [
+		{
+			"accidents": {
+				"mon_box": {
+					"cost": 30,
+					"kind": "box"
+				},
+				"mon_cooler": {
+					"cost": 800,
+					"kind": "cooler"
+				},
+				"mon_files": {
+					"cost": 30,
+					"kind": "files"
+				}
+			},
+			"coupons": 1,
+			"damage": 860,
+			"position": [
+				3427.61962890625,
+				599.925170898438
+			],
+			"route": "骑椅连锁开路",
+			"seconds": 15.9666666666667,
+			"state": "success",
+			"strategies": {
+				"chain": true,
+				"noise_lure": true,
+				"powder_escape": true
+			},
+			"teleport": false
+		},
+		{
+			"accidents": {
+				"mon_box": {
+					"cost": 30,
+					"kind": "box"
+				},
+				"mon_cooler": {
+					"cost": 800,
+					"kind": "cooler"
+				},
+				"mon_files": {
+					"cost": 30,
+					"kind": "files"
+				}
+			},
+			"coupons": 0,
+			"damage": 860,
+			"position": [
+				3427.61962890625,
+				599.925170898438
+			],
+			"route": "高速翻越落地冲刺连锁路线",
+			"seconds": 17.25,
+			"state": "success",
+			"strategies": {
+				"chain": true,
+				"noise_lure": true,
+				"powder_escape": true
+			},
+			"teleport": false
+		}
+	]
+}

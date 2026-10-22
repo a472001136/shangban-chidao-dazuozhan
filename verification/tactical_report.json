@@ -1,0 +1,253 @@
+{
+	"checks": [
+		{
+			"check": "上层绕行加消防遮挡实际输入通关",
+			"detail": {
+				"accidents": {},
+				"coupons": 3,
+				"damage": 0,
+				"position": [
+					3500.58203125,
+					599.925170898438
+				],
+				"route": "上层绕行加消防遮挡",
+				"seconds": 20.0,
+				"state": "success",
+				"strategies": {
+					"powder_escape": true
+				},
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "上层绕行加消防遮挡没有损坏物件",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "复印诱饵加门禁放行实际输入通关",
+			"detail": {
+				"accidents": {},
+				"coupons": 0,
+				"damage": 0,
+				"position": [
+					3427.61962890625,
+					599.925170898438
+				],
+				"route": "复印诱饵加门禁放行",
+				"seconds": 17.7666666666667,
+				"state": "success",
+				"strategies": {
+					"noise_lure": true,
+					"powder_escape": true
+				},
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "复印诱饵加门禁放行没有损坏物件",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "复印诱饵加门禁放行组合奖章存档",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "骑椅连锁开路实际输入通关",
+			"detail": {
+				"accidents": {
+					"mon_box": {
+						"cost": 30,
+						"kind": "box"
+					},
+					"mon_cooler": {
+						"cost": 800,
+						"kind": "cooler"
+					},
+					"mon_files": {
+						"cost": 30,
+						"kind": "files"
+					}
+				},
+				"coupons": 0,
+				"damage": 860,
+				"position": [
+					3427.61962890625,
+					599.925170898438
+				],
+				"route": "骑椅连锁开路",
+				"seconds": 15.9666666666667,
+				"state": "success",
+				"strategies": {
+					"chain": true,
+					"noise_lure": true,
+					"powder_escape": true
+				},
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "连锁路线由滚桶撞散文件",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "骑椅连锁开路组合奖章存档",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：复印诱饵使人事转向声音",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "暂停冻结诱饵和门禁计时",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "F 踢出椅子后空手",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "椅子通过真实碰撞撞散纸箱",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：门禁预警后实体关闭",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：关闭的门禁阻挡实际移动",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：按钮打开实体门禁",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：开放的门禁允许实际移动",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：占用门口时延迟关闭",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：放行结束重新关闭",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "重开清空门禁诱饵和组合",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：新布局可以用实际输入推桌",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：推桌实际挡住追赶并计入组合",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：实际骑椅碰撞生成漏水",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：人事在实际漏水区转向打滑",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "图鉴可以打开",
+			"detail": "",
+			"passed": true
+		}
+	],
+	"method": "整局路线使用实际移动输入，保留人事和碰撞；定点规则检查单独标注。",
+	"passed": true,
+	"routes": [
+		{
+			"accidents": {},
+			"coupons": 3,
+			"damage": 0,
+			"position": [
+				3500.58203125,
+				599.925170898438
+			],
+			"route": "上层绕行加消防遮挡",
+			"seconds": 20.0,
+			"state": "success",
+			"strategies": {
+				"powder_escape": true
+			},
+			"teleport": false
+		},
+		{
+			"accidents": {},
+			"coupons": 0,
+			"damage": 0,
+			"position": [
+				3427.61962890625,
+				599.925170898438
+			],
+			"route": "复印诱饵加门禁放行",
+			"seconds": 17.7666666666667,
+			"state": "success",
+			"strategies": {
+				"noise_lure": true,
+				"powder_escape": true
+			},
+			"teleport": false
+		},
+		{
+			"accidents": {
+				"mon_box": {
+					"cost": 30,
+					"kind": "box"
+				},
+				"mon_cooler": {
+					"cost": 800,
+					"kind": "cooler"
+				},
+				"mon_files": {
+					"cost": 30,
+					"kind": "files"
+				}
+			},
+			"coupons": 0,
+			"damage": 860,
+			"position": [
+				3427.61962890625,
+				599.925170898438
+			],
+			"route": "骑椅连锁开路",
+			"seconds": 15.9666666666667,
+			"state": "success",
+			"strategies": {
+				"chain": true,
+				"noise_lure": true,
+				"powder_escape": true
+			},
+			"teleport": false
+		}
+	]
+}

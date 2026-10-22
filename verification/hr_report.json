@@ -1,0 +1,332 @@
+{
+	"checks": [
+		{
+			"check": "三名人事预先出现在巡查区",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "菜单和简报正常",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "起点可坐办公椅",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "椅子开路后走上层躲过人事并打卡",
+			"detail": {
+				"position": [
+					4428.990234375,
+					599.925170898438
+				],
+				"route": "椅子开路后走上层",
+				"seconds": 14.3666666666667,
+				"state": "success",
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "椅子开路后走上层没有传送",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "步行跳跃加地面冲刺躲过人事并打卡",
+			"detail": {
+				"position": [
+					4436.67138671875,
+					599.925170898438
+				],
+				"route": "步行跳跃加地面冲刺",
+				"seconds": 13.7,
+				"state": "success",
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "步行跳跃加地面冲刺没有传送",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：绿线处可装忙",
+			"detail": [
+				"(970.0, 600.0)",
+				true,
+				true
+			],
+			"passed": true
+		},
+		{
+			"check": "定点：人事先核查日报",
+			"detail": "inspect",
+			"passed": true
+		},
+		{
+			"check": "暂停冻结追赶和核查",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "装忙持续太久会被识破",
+			"detail": "grab",
+			"passed": true
+		},
+		{
+			"check": "近距离伸手后登记迟到",
+			"detail": "failure",
+			"passed": true
+		},
+		{
+			"check": "定点：贴近会议桌可推动",
+			"detail": 179.91064453125,
+			"passed": true
+		},
+		{
+			"check": "推动时玩家留在桌边",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "停止推桌后摩擦减速",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "推过的会议桌能挡住追赶并触发事件",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "松开刹车不会凭空加速",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "从椅子起跳会离椅",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "离椅后椅子仍保留惯性",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "空中不能冲刺增速",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "上层可拿灭火器",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "喷粉生成遮挡",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "喷粉不托举角色",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "道具放下后留在上层支撑面",
+			"detail": "(2170.0, 405.0)",
+			"passed": true
+		},
+		{
+			"check": "重开重置人事和家具",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "图鉴可以打开",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：伸手有反应窗口",
+			"detail": 0.25,
+			"passed": true
+		},
+		{
+			"check": "离开伸手范围会取消登记",
+			"detail": [
+				0.0,
+				"(840.2537, 593.0303)"
+			],
+			"passed": true
+		},
+		{
+			"check": "离开装忙点时人事仍在看日报",
+			"detail": "inspect",
+			"passed": true
+		},
+		{
+			"check": "装忙可以争取离开的时间",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：会议桌不能穿过边界墙",
+			"detail": "(4609.996, 599.9992)",
+			"passed": true
+		},
+		{
+			"check": "定点：实体饮水机遮挡人事视线",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "饮水机滚桶会受重力下落",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "漏水逐渐扩散",
+			"detail": [
+				85.0,
+				248.333333333333
+			],
+			"passed": true
+		},
+		{
+			"check": "迁移保留关卡与午饭券",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "迁移移除失效火箭发现和旧路线纪录",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "工作日2实际输入可通关",
+			"detail": {
+				"level": 2,
+				"position": [
+					8009.77880859375,
+					599.925109863281
+				],
+				"seconds": 22.2,
+				"state": "success",
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "工作日3实际输入可通关",
+			"detail": {
+				"level": 3,
+				"position": [
+					8207.62890625,
+					599.925170898438
+				],
+				"seconds": 22.65,
+				"state": "success",
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "工作日4实际输入可通关",
+			"detail": {
+				"level": 4,
+				"position": [
+					8106.16015625,
+					599.925170898438
+				],
+				"seconds": 22.6833333333333,
+				"state": "success",
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "工作日5实际输入可通关",
+			"detail": {
+				"level": 5,
+				"position": [
+					9072.7919921875,
+					599.925231933594
+				],
+				"seconds": 26.35,
+				"state": "success",
+				"teleport": false
+			},
+			"passed": true
+		}
+	],
+	"method": "两条路线使用真实输入；定点规则检查明确标注，测试存档位于 verification。",
+	"passed": true,
+	"runs": [
+		{
+			"position": [
+				4428.990234375,
+				599.925170898438
+			],
+			"route": "椅子开路后走上层",
+			"seconds": 14.3666666666667,
+			"state": "success",
+			"teleport": false
+		},
+		{
+			"position": [
+				4436.67138671875,
+				599.925170898438
+			],
+			"route": "步行跳跃加地面冲刺",
+			"seconds": 13.7,
+			"state": "success",
+			"teleport": false
+		},
+		{
+			"level": 2,
+			"position": [
+				8009.77880859375,
+				599.925109863281
+			],
+			"seconds": 22.2,
+			"state": "success",
+			"teleport": false
+		},
+		{
+			"level": 3,
+			"position": [
+				8207.62890625,
+				599.925170898438
+			],
+			"seconds": 22.65,
+			"state": "success",
+			"teleport": false
+		},
+		{
+			"level": 4,
+			"position": [
+				8106.16015625,
+				599.925170898438
+			],
+			"seconds": 22.6833333333333,
+			"state": "success",
+			"teleport": false
+		},
+		{
+			"level": 5,
+			"position": [
+				9072.7919921875,
+				599.925231933594
+			],
+			"seconds": 26.35,
+			"state": "success",
+			"teleport": false
+		}
+	]
+}

@@ -1,0 +1,29 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Local builds and editor output
+/dist/
+*.log
+*.tmp
+*.gdc.uid
+*.bak
+*.broken*
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# Verification scripts are source; run output and local backups stay local.
+/verification/*
+!/verification/*.gd
+!/verification/*.gd.uid
+!/verification/tactical_flow_opening.png
+!/verification/tactical_chain.png
+!/verification/tactical_flow_result.png
+!/verification/flow_report.json
+!/verification/flow_visual_report.json
+!/verification/game_report.json
+!/verification/hr_report.json
+!/verification/friday_block_report.json
+!/verification/tactical_report.json

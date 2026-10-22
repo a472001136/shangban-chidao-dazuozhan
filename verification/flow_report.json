@@ -1,0 +1,405 @@
+{
+	"checks": [
+		{
+			"check": "定点运动：地面冲刺起跳保持实际惯性",
+			"detail": 528.5,
+			"passed": true
+		},
+		{
+			"check": "定点运动：落地前冲刺输入被缓冲",
+			"detail": [
+				{
+					"kind": "vault",
+					"position": "(532.0721, 499.9252)",
+					"speed": 514.25
+				},
+				{
+					"kind": "landing_dash",
+					"position": "(532.0721, 499.9252)",
+					"speed": 550.0
+				},
+				{
+					"kind": "running_jump",
+					"position": "(2139.09, 599.9252)",
+					"speed": 336.666625976563
+				},
+				{
+					"kind": "vault",
+					"position": "(532.0721, 499.9252)",
+					"speed": 514.25
+				},
+				{
+					"kind": "landing_dash",
+					"position": "(532.0721, 499.9252)",
+					"speed": 550.0
+				},
+				{
+					"kind": "running_jump",
+					"position": "(2140.16, 599.9252)",
+					"speed": 339.583282470703
+				}
+			],
+			"passed": true
+		},
+		{
+			"check": "定点运动：高速翻越由真实起落产生",
+			"detail": {
+				"actions": [
+					{
+						"kind": "vault",
+						"position": "(532.0721, 499.9252)",
+						"speed": 514.25
+					},
+					{
+						"kind": "landing_dash",
+						"position": "(532.0721, 499.9252)",
+						"speed": 550.0
+					},
+					{
+						"kind": "running_jump",
+						"position": "(2139.09, 599.9252)",
+						"speed": 336.666625976563
+					},
+					{
+						"kind": "vault",
+						"position": "(532.0721, 499.9252)",
+						"speed": 514.25
+					},
+					{
+						"kind": "landing_dash",
+						"position": "(532.0721, 499.9252)",
+						"speed": 550.0
+					},
+					{
+						"kind": "running_jump",
+						"position": "(2140.16, 599.9252)",
+						"speed": 339.583282470703
+					}
+				],
+				"land_speed": 514.25
+			},
+			"passed": true
+		},
+		{
+			"check": "暂停冻结连击与运动",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "空中冲刺不凭空提供推进力",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "评分边界：同一事件不重复计分",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "评分边界：原地重复跳不刷分",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "评分边界：连续同招降分且不增加连击",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "评分边界：不同动作续接提高倍率",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "暂停不能接受评分事件",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "四秒没有新动作连击归零",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "同一次碰撞的事故与连锁只算一招",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "摔倒中断连击",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "重开清空连击与名场面",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "S 级同时要求分数连击与动作种类",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "单一动作高分不能得到 S 级",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "失败不能获得成功评级",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "定点：真实经过追赶人事上方触发擦身",
+			"detail": {
+				"passes": {},
+				"position": "(838.3333, 599.9252)"
+			},
+			"passed": true
+		},
+		{
+			"check": "定点：普通经过巡逻人事不算擦身",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "骑椅连锁开路实际输入通关",
+			"detail": {
+				"accidents": {
+					"mon_box": {
+						"cost": 30,
+						"kind": "box"
+					},
+					"mon_cooler": {
+						"cost": 800,
+						"kind": "cooler"
+					},
+					"mon_files": {
+						"cost": 30,
+						"kind": "files"
+					}
+				},
+				"coupons": 1,
+				"damage": 860,
+				"position": [
+					3427.61962890625,
+					599.925170898438
+				],
+				"route": "骑椅连锁开路",
+				"seconds": 15.9666666666667,
+				"state": "success",
+				"strategies": {
+					"chain": true,
+					"noise_lure": true,
+					"powder_escape": true
+				},
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "连锁路线由滚桶撞散文件",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "骑椅连锁开路组合奖章存档",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "整局连锁路线产生连续评分",
+			"detail": {
+				"combo": 7,
+				"score": 3835,
+				"types": {
+					"accident": true,
+					"chain": true,
+					"gate_dash": true,
+					"hr_escape": true,
+					"landing_dash": true,
+					"near_miss": true,
+					"noise_lure": true,
+					"powder_escape": true,
+					"running_jump": true,
+					"upper_route": true,
+					"vault": true,
+					"water_surf": true
+				}
+			},
+			"passed": true
+		},
+		{
+			"check": "名场面截取来自实际游玩",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "高速翻越落地冲刺连锁路线实际输入通关",
+			"detail": {
+				"accidents": {
+					"mon_box": {
+						"cost": 30,
+						"kind": "box"
+					},
+					"mon_cooler": {
+						"cost": 800,
+						"kind": "cooler"
+					},
+					"mon_files": {
+						"cost": 30,
+						"kind": "files"
+					}
+				},
+				"coupons": 0,
+				"damage": 860,
+				"position": [
+					3427.61962890625,
+					599.925170898438
+				],
+				"route": "高速翻越落地冲刺连锁路线",
+				"seconds": 17.25,
+				"state": "success",
+				"strategies": {
+					"chain": true,
+					"noise_lure": true,
+					"powder_escape": true
+				},
+				"teleport": false
+			},
+			"passed": true
+		},
+		{
+			"check": "连锁路线由滚桶撞散文件",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "高速翻越落地冲刺连锁路线组合奖章存档",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "实际整局操作可以达到 S 级",
+			"detail": {
+				"combo": 7,
+				"position": "(3427.62, 599.9252)",
+				"score": 4475,
+				"types": {
+					"accident": true,
+					"chain": true,
+					"gate_dash": true,
+					"hr_escape": true,
+					"landing_dash": true,
+					"near_miss": true,
+					"noise_lure": true,
+					"powder_escape": true,
+					"running_jump": true,
+					"upper_route": true,
+					"vault": true,
+					"water_surf": true
+				}
+			},
+			"passed": true
+		}
+	],
+	"method": "整局保留人事和碰撞，定点检查用于隔离运动与评分边界。",
+	"motion": [
+		{
+			"kind": "vault",
+			"position": "(532.0721, 499.9252)",
+			"speed": 514.25
+		},
+		{
+			"kind": "landing_dash",
+			"position": "(532.0721, 499.9252)",
+			"speed": 550.0
+		},
+		{
+			"kind": "running_jump",
+			"position": "(2139.09, 599.9252)",
+			"speed": 336.666625976563
+		},
+		{
+			"kind": "vault",
+			"position": "(532.0721, 499.9252)",
+			"speed": 514.25
+		},
+		{
+			"kind": "landing_dash",
+			"position": "(532.0721, 499.9252)",
+			"speed": 550.0
+		},
+		{
+			"kind": "running_jump",
+			"position": "(2140.16, 599.9252)",
+			"speed": 339.583282470703
+		}
+	],
+	"passed": true,
+	"routes": [
+		{
+			"accidents": {
+				"mon_box": {
+					"cost": 30,
+					"kind": "box"
+				},
+				"mon_cooler": {
+					"cost": 800,
+					"kind": "cooler"
+				},
+				"mon_files": {
+					"cost": 30,
+					"kind": "files"
+				}
+			},
+			"coupons": 1,
+			"damage": 860,
+			"position": [
+				3427.61962890625,
+				599.925170898438
+			],
+			"route": "骑椅连锁开路",
+			"seconds": 15.9666666666667,
+			"state": "success",
+			"strategies": {
+				"chain": true,
+				"noise_lure": true,
+				"powder_escape": true
+			},
+			"teleport": false
+		},
+		{
+			"accidents": {
+				"mon_box": {
+					"cost": 30,
+					"kind": "box"
+				},
+				"mon_cooler": {
+					"cost": 800,
+					"kind": "cooler"
+				},
+				"mon_files": {
+					"cost": 30,
+					"kind": "files"
+				}
+			},
+			"coupons": 0,
+			"damage": 860,
+			"position": [
+				3427.61962890625,
+				599.925170898438
+			],
+			"route": "高速翻越落地冲刺连锁路线",
+			"seconds": 17.25,
+			"state": "success",
+			"strategies": {
+				"chain": true,
+				"noise_lure": true,
+				"powder_escape": true
+			},
+			"teleport": false
+		}
+	]
+}

@@ -1,0 +1,172 @@
+{
+	"checks": [
+		{
+			"check": "地面跳跃不能凭空跨越高机器",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "从截图堵点跳上踏台后只用走跳绕过饮水机",
+			"detail": "(3502.342, 428.3411)",
+			"passed": true
+		},
+		{
+			"check": "绕行不会损坏饮水机",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"check": "人事生成时站在支撑面上",
+			"detail": "(3447.166, 489.9253)",
+			"passed": true
+		},
+		{
+			"check": "巡查遇到高机器会转向继续走",
+			"detail": "(3031.567, 519.9252)",
+			"passed": true
+		},
+		{
+			"check": "追赶遇到饮水机会沿实体踏台绕行",
+			"detail": "(3402.309, 404.0086)",
+			"passed": true
+		},
+		{
+			"check": "饮水机右侧的人事也能反向绕行脱困",
+			"detail": "(3028.081, 510.4475)",
+			"passed": true
+		},
+		{
+			"check": "定点：不可达绕行点超时后恢复移动",
+			"detail": "(3542.296, 489.9253)",
+			"passed": true
+		},
+		{
+			"check": "关卡0人事0持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 1293.11535644531,
+				"min": 1067.33093261719
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡0人事1持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 2719.94702148438,
+				"min": 2507.97729492188
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡0人事2持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 4192.6884765625,
+				"min": 3996.49267578125
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡1人事0持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 1010.61029052734,
+				"min": 887.779479980469
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡1人事1持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 2166.84033203125,
+				"min": 2061.82177734375
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡1人事2持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 3382.45068359375,
+				"min": 3247.32397460938
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡2人事0持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 3015.166015625,
+				"min": 2779.97778320313
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡2人事1持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 6039.16650390625,
+				"min": 5874.5537109375
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡3人事0持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 3156.18017578125,
+				"min": 2913.8115234375
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡3人事1持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 6183.16650390625,
+				"min": 6027.23046875
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡4人事0持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 3050.55297851563,
+				"min": 2812.9169921875
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡4人事1持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 6453.162109375,
+				"min": 6130.9716796875
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡5人事0持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 3744.20141601563,
+				"min": 3433.8310546875
+			},
+			"passed": true
+		},
+		{
+			"check": "关卡5人事1持续巡查且未陷进地面",
+			"detail": {
+				"embedded": false,
+				"max": 7078.8251953125,
+				"min": 6792.486328125
+			},
+			"passed": true
+		}
+	],
+	"passed": true,
+	"scope": "定点复现截图位置后用真实输入绕行；人事巡查与绕行规则使用独立状态设置。"
+}
